@@ -5,4 +5,5 @@
 !.gitignore
 !.alias.sh
 !.funcs.sh
+!index.php
 !README.md
