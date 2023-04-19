@@ -3,4 +3,6 @@
 
 # But not these files & folders
 !.gitignore
+!.alias.sh
+!.funcs.sh
 !README.md
