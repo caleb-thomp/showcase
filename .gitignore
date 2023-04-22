@@ -1,9 +1,5 @@
-# Ignore everything
 /*
-
-# But not these files & folders
 !.gitignore
-!.alias.sh
-!.funcs.sh
+!.caleb.sh
 !index.php
 !README.md
