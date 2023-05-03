@@ -1,5 +1,6 @@
-alias src="source /home/runner/CalebPHP/.caleb.sh"
-alias fxx='/home/runner/CalebPHP/.caleb.sh'
+# v 1.0.1
+alias src="source /home/runner/Caleb***/.caleb.sh"
+alias fxx='/home/runner/Caleb***/.caleb.sh'
 alias cls='clear'
 alias npr='npm run'
 alias gaa='git add .'
@@ -12,6 +13,7 @@ alias gaaa='git add --all'
 alias gomm='git commit -m'
 alias gco='git checkout'
 alias gcob='git checkout -b'
+alias gref='git update-index --really-refresh .'
 alias glgo='git log --oneline'
 alias gpo='git push origin'
 
@@ -22,6 +24,7 @@ gign() {
 
   # Write rules to the .gitignore file
   echo "/*" >> .gitignore
+  echo "!/prog1/" >> .gitignore
   echo "!/.gitignore" >> .gitignore
   echo "!/.caleb.sh" >> .gitignore
   echo "!/README.md" >> .gitignore
@@ -30,8 +33,10 @@ gign() {
 case "$1" in
    "lo") echo "Working"
    ;;
-   "git") git config --global user.email "caleb.softdev@gmail.com" &&  git config --global user.name "Caleb Thompson" && gign
+   "git") git config --global user.email "caleb.softdev@gmail.com" &&  git config --global user.name "Caleb Thompson"
+   ;;
+   "gign") gign
    ;;
    "gcase") git remote add origin https://github.com/caleb-thomp/showcase.git
-   exit 1
+   ;;
 esac

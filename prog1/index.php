@@ -3,7 +3,7 @@
     <title>PHP Test</title>
   </head>
   <body>
-    <?php echo '<p>Hello World from Caleb</p>'; ?> 
+    <?php echo '<p>Hello World from Caleb PHP</p>'; ?> 
 
 
   <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
